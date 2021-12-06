@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+body{
+    
+    height: 100vh;
+    background-color: rgb(20, 23, 34);
+    font-family: 'Montserrat', sans-serif;
+    .welcome {
+        position: relative;
+        background-color: rgb(20, 23, 34);
+        height: 85vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h1{
+            color: rgb(244, 248, 0);
+            text-align: center;
+            font-size: 12vw;
+            font-weight: 600;
+            letter-spacing: .4rem;         
+            z-index: 2;
+
+        }
+        .square{
+            position: absolute;
+            left: 50%;
+            top: 20%;
+            max-width: 30rem;
+            max-height:30rem ;
+            width: 40vw;
+            height: 40vw;
+            background-color: rgb(218, 67, 67);
+            z-index: 1;
+            border-radius: 1rem;
+            
+        }
+    }
+
+    .resume{
+        margin: 0;
+        padding: 0 0 1rem 0;
+        
+        .aestethic,.usability{
+            background-color: rgba(255, 0, 85, 0);
+            display: grid;
+            align-items: center;
+            padding-bottom: 3rem;
+            h2{
+                font-weight: 300;
+                font-size: 2rem;
+                text-align: center;
+                color: rgba(177, 63, 63, 0.762);
+                span{
+                    font-size: 4rem;
+                    color: rgb(255, 29, 29);
+                }
+            }
+            ul{
+                list-style: none;
+                text-align: center;
+                li{
+                    display: inline-block;
+                    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.387);
+                    margin: 1rem;
+                    background-color: brown;
+                    border-radius: 1rem;
+                    padding: 1rem;
+                    max-width: 400px;
+                }
+            }
+        }
+
+    }
+    .testimonial{
+        color: rgb(0, 0, 0);
+        display: grid;
+        align-items: center;
+        
+       h2{
+        color: rgb(57, 148, 228);;
+        font-weight: 300;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    ul{
+        list-style: none;
+        text-align: center;
+        
+        li{
+            display: inline-block;
+            margin: 1rem;
+            background-color: rgb(66, 131, 187);
+            box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.387);
+            border-radius: 1rem;
+            padding: 1rem;
+            max-width: 400px;
+        }
+    }
+
+
+    }
+}
