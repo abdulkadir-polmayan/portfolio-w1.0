@@ -12,21 +12,32 @@ body{
     height: 100vh;
     background-color: rgb(20, 23, 34);
     font-family: 'Montserrat', sans-serif;
+
     .welcome {
         position: relative;
         background-color: rgb(20, 23, 34);
-        height: 85vh;
+        height: 65vh;
         display: flex;
         justify-content: center;
         align-items: center;
         h1{
             color: rgb(244, 248, 0);
             text-align: center;
-            font-size: 12vw;
-            font-weight: 600;
+            font-size: 20vw;
+            font-weight: 300;
             letter-spacing: .4rem;         
             z-index: 2;
+            
+            .kadir{
+                letter-spacing: .9rem;
+                color: rgb(244, 248, 0);
 
+            }
+
+            .şenel{
+                letter-spacing: .7rem;
+                font-style: italic;
+            }
         }
         .square{
             position: absolute;
@@ -40,6 +51,17 @@ body{
             z-index: 1;
             border-radius: 1rem;
             
+        }
+    }
+
+    .about{
+
+        padding: 0 2rem 3rem 2rem;
+        text-align: center;
+        color: aquamarine;
+
+        h2{
+            color: rgba(127, 255, 212, 0.527);
         }
     }
 
