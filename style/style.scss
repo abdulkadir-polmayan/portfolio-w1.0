@@ -44,12 +44,12 @@ body{
     }
 
     .resume{
+        
         margin: 0;
         padding: 0 0 1rem 0;
         
         .aestethic,.usability{
             background-color: rgba(255, 0, 85, 0);
-            display: grid;
             align-items: center;
             padding-bottom: 3rem;
             h2{
@@ -106,5 +106,39 @@ body{
     }
 
 
+    }
+}
+
+@media screen and (min-width: 800px) {
+    body{
+        .welcome{
+            h1{
+                font-size: 7rem;
+                br{
+                    display: none;
+                }
+            }
+        }
+    
+        .resume{
+            display: grid;
+            grid-template-columns: 50% auto;
+            .usability,.aestethic{
+                ul{
+                    list-style: none;
+                    text-align: center;
+                    li{
+                        box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.387);
+                        margin: 1rem;
+                        background-color: brown;
+                        border-radius: 1rem;
+                        padding: 1rem;
+                    }
+                }
+
+            }
+
+        }
+    
     }
 }
